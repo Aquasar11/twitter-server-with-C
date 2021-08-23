@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SERVER.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\SERVER.dir/objects.a @CMakeFiles\SERVER.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\SERVER.dir/objects.a -Wl,--no-whole-archive  -o SERVER.exe -Wl,--out-implib,libSERVER.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SERVER.dir\linklibs.rsp

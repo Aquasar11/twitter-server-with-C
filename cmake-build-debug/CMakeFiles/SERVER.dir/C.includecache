@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CE/FOP Project/SERVER/cJSON.h
+stddef.h
+-
+
+E:/CE/FOP Project/SERVER/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+winsock2.h
+-
+time.h
+-
+unistd.h
+-
+cJSON.h
+E:/CE/FOP Project/SERVER/cJSON.h
+
